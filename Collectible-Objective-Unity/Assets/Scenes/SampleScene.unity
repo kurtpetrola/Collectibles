@@ -134,10 +134,10 @@ GameObject:
   - component: {fileID: 75150027}
   - component: {fileID: 75150026}
   - component: {fileID: 75150025}
-  - component: {fileID: 75150028}
   - component: {fileID: 75150024}
+  - component: {fileID: 75150028}
   m_Layer: 0
-  m_Name: Gem (1)
+  m_Name: Collectible2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -223,7 +223,7 @@ Transform:
   m_GameObject: {fileID: 75150022}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.62, y: 0.84, z: 2.23}
+  m_LocalPosition: {x: -0.55, y: 0.84, z: 1.1}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -238,7 +238,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 75150022}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9aabfb20d73d9f440b9b52b8d034f01e, type: 3}
+  m_Script: {fileID: 11500000, guid: 98dcee59abf9d644bb867d6a4de2b031, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &563559652
@@ -252,10 +252,10 @@ GameObject:
   - component: {fileID: 563559657}
   - component: {fileID: 563559656}
   - component: {fileID: 563559655}
-  - component: {fileID: 563559658}
   - component: {fileID: 563559654}
+  - component: {fileID: 563559658}
   m_Layer: 0
-  m_Name: Gem (2)
+  m_Name: Collectible3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -341,7 +341,7 @@ Transform:
   m_GameObject: {fileID: 563559652}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.269, y: 0.84, z: 3.31}
+  m_LocalPosition: {x: 1.27, y: 0.84, z: 3.63}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -356,7 +356,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 563559652}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9aabfb20d73d9f440b9b52b8d034f01e, type: 3}
+  m_Script: {fileID: 11500000, guid: 98dcee59abf9d644bb867d6a4de2b031, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &695476154
@@ -370,10 +370,10 @@ GameObject:
   - component: {fileID: 695476159}
   - component: {fileID: 695476158}
   - component: {fileID: 695476157}
-  - component: {fileID: 695476160}
   - component: {fileID: 695476156}
+  - component: {fileID: 695476160}
   m_Layer: 0
-  m_Name: Gem (3)
+  m_Name: Collectible4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -459,7 +459,7 @@ Transform:
   m_GameObject: {fileID: 695476154}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.62, y: 0.84, z: 3.781}
+  m_LocalPosition: {x: -0.46, y: 0.84, z: 3.781}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -474,7 +474,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 695476154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9aabfb20d73d9f440b9b52b8d034f01e, type: 3}
+  m_Script: {fileID: 11500000, guid: 98dcee59abf9d644bb867d6a4de2b031, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &705507993
@@ -674,9 +674,9 @@ GameObject:
   - component: {fileID: 1323371012}
   - component: {fileID: 1323371011}
   - component: {fileID: 1323371010}
-  - component: {fileID: 1323371014}
-  - component: {fileID: 1323371013}
   - component: {fileID: 1323371009}
+  - component: {fileID: 1323371015}
+  - component: {fileID: 1323371016}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -770,7 +770,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1323371013
+--- !u!114 &1323371015
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -779,10 +779,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1323371008}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a0bf3ef1d87f8439b750ef0fd95848, type: 3}
+  m_Script: {fileID: 11500000, guid: 33af6f9e15e624545b14b538bc2a59a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1323371014
+--- !u!114 &1323371016
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -791,7 +791,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1323371008}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9aabfb20d73d9f440b9b52b8d034f01e, type: 3}
+  m_Script: {fileID: 11500000, guid: 98dcee59abf9d644bb867d6a4de2b031, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1414135733
@@ -805,10 +805,10 @@ GameObject:
   - component: {fileID: 1414135738}
   - component: {fileID: 1414135737}
   - component: {fileID: 1414135736}
-  - component: {fileID: 1414135739}
   - component: {fileID: 1414135735}
+  - component: {fileID: 1414135739}
   m_Layer: 0
-  m_Name: Gem (4)
+  m_Name: Collectible5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -894,7 +894,7 @@ Transform:
   m_GameObject: {fileID: 1414135733}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.62, y: 0.84, z: 3.08}
+  m_LocalPosition: {x: -0.6, y: 0.84, z: 2.62}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -909,7 +909,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1414135733}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9aabfb20d73d9f440b9b52b8d034f01e, type: 3}
+  m_Script: {fileID: 11500000, guid: 98dcee59abf9d644bb867d6a4de2b031, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1455188166
@@ -1029,10 +1029,10 @@ GameObject:
   - component: {fileID: 2014496180}
   - component: {fileID: 2014496179}
   - component: {fileID: 2014496178}
-  - component: {fileID: 2014496181}
   - component: {fileID: 2014496177}
+  - component: {fileID: 2014496181}
   m_Layer: 0
-  m_Name: Gem
+  m_Name: Collectible1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1118,7 +1118,7 @@ Transform:
   m_GameObject: {fileID: 2014496176}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.62, y: 0.84, z: 0}
+  m_LocalPosition: {x: -0.41, y: 0.84, z: -0.91}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1133,7 +1133,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2014496176}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9aabfb20d73d9f440b9b52b8d034f01e, type: 3}
+  m_Script: {fileID: 11500000, guid: 98dcee59abf9d644bb867d6a4de2b031, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
